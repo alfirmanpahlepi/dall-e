@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-input {
+  width: 100%;
+}
+
+.text-input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid lightgrey;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.result-image {
+  margin-top: 20px;
+  border: 2px solid lightgray;
+  padding: 10px;
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  color: #888;
+}
+
+.clear-button {
+  margin-right: 8px;
+}
