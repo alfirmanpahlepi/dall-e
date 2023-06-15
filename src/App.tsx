@@ -26,8 +26,12 @@ function App() {
       });
 
       setResult(response.data.data[0].url ?? "");
-    } catch (error) {
-      alert((error as Error).message);
+    } catch (err) {
+      const errorMessage: string =
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (err as any).response.data.error?.message;
+
+      alert(errorMessage || (err as Error).message);
     } finally {
       setLoading(false);
     }
