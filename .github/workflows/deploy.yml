@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: Install dependencies
-        run: yarn build
+        run: yarn install
 
       - name: Build project
         run: yarn build
